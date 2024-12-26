@@ -41,7 +41,7 @@ const NavBar = () => {
   }, [isNavVisible]);
 
   return (
-    <header ref={navContainerRef} className='hidden max-sm:fixed inset-x-0 top-4 z-[60] h-16 border-none transition-all duration-700 sm:inset-x-6'>
+    <header ref={navContainerRef} className='hidden md:block fixed inset-x-0 top-4 z-[60] h-16 border-none transition-all duration-700 sm:inset-x-6'>
       <nav className='flex size-full items-center justify-between px-6 '>
         <div className="flex items-center gap-3">
           <img src='/img/logo.png' alt='logo' className='w-20' />

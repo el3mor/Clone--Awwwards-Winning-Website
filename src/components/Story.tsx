@@ -52,7 +52,6 @@ const Story = () => {
         trigger:".parg-story",
         start: "top 80%",
         animation:tl,
-        markers:true,
         toggleActions: "play none none reverse",
       })
     });

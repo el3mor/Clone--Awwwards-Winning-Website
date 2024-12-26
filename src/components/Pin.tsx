@@ -34,7 +34,6 @@ const Pin = () => {
           trigger: item as HTMLElement,
           start: start,
           end: end,
-          markers:true,
           animation: lineAnimation,
           onEnter: () => EnteryAnimation.play(),
           onLeave: () => EnteryAnimation.reverse(),
